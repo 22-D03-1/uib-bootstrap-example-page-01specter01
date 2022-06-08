@@ -10,7 +10,7 @@
             integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
             crossorigin="anonymous"
         />
-        <!-- JavaScript Bundle with Popper -->
+
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
@@ -19,23 +19,17 @@
         <title>Bootstrap Page</title>
     </head>
     <body>
-        <div class="bg-info">
-            <br />
-            <br /><br />
-            <br />
-            <ul class="nav justify-content-center">
-                <li class="nav-item">
-                    <a><h2>Bootstrap Page</h2></a>
-                </li>
-
-                <br /><br />
-                <br /><br />
-                <br />
-                <li class="nav-item">
-                    <a>Create this</a>
-                </li>
-            </ul>
+        <div class="container bg-info">
+            <div class="collum text-center">
+                <div class="col-12 col-lg-3 col-md-4 col-sm-6 text-center">
+                    <h1>Bootstrap Page</h1>
+                </div>
+                <div class="col-12 col-lg-3 col-md-4 col-sm-6">
+                    <p>Create this</p>
+                </div>
+            </div>
         </div>
+
         <div class="border border-1 text-bg-gray">
             <ul class="nav justify-content-center">
                 <li class="nav-item">
@@ -51,12 +45,10 @@
                 </li>
             </ul>
         </div>
-        <br /><br />
-        <br /><br />
         <br />
         <div class="container justify-content-center">
             <div class="row">
-                <div class="col">
+                <div class="col-12 col-lg-3 col-md-4 col-sm-6">
                     <h5>Column 1</h5>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -66,7 +58,7 @@
                         expedita.
                     </p>
                 </div>
-                <div class="col">
+                <div class="col-12 col-lg-3 col-md-4 col-sm-6">
                     <h5>Column 2</h5>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -76,7 +68,7 @@
                         expedita.
                     </p>
                 </div>
-                <div class="col">
+                <div class="col-12 col-lg-3 col-md-4 col-sm-6">
                     <h5>Column 3</h5>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -89,33 +81,28 @@
             </div>
         </div>
         <br />
-        <br /><br />
-        <br /><br />
-        <br /><br />
-        <br />
-
-        <main class="d-flex justify-content-evenly">
-            <div class="card text-bg-primary mb-3" style="width: 20rem">
-                <div class="card-body text-color black">
-                    <h5 class="card-title">First Card</h5>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-3 col-sm-6 bg-primary">
+                    <h2>Column 1</h2>
+                </div>
+                <div class="col-12 col-lg-3 col-sm-6 bg-danger">
+                    <h2>Column 2</h2>
+                </div>
+                <div class="col-12 col-lg-3 col-sm-6 bg-success">
+                    <h2>Column 3</h2>
+                </div>
+                <div class="col-12 col-lg-3 col-sm-6 bg-warning">
+                    <h2>Column 4</h2>
                 </div>
             </div>
-            <div class="card text-bg-warning mb-3" style="width: 20rem">
-                <div class="card-body">
-                    <h5 class="card-title">Second Card</h5>
-                </div>
+            <div class="row">
+                <div class="col"></div>
+                <div class="col-6"></div>
+                <div class="col"></div>
             </div>
-            <div class="card text-bg-success mb-3" style="width: 20rem">
-                <div class="card-body">
-                    <h5>Third Card</h5>
-                </div>
-            </div>
-            <div class="card text-bg-danger mb-3" style="width: 20rem">
-                <div class="card-body">
-                    <h5 class="card-title black">Fourth Card</h5>
-                </div>
-            </div>
-        </main>
+        </div>
+        <br /><br /><br />
         <footer>
             <div class="fixed-bottom bg-info">
                 <p></p>
